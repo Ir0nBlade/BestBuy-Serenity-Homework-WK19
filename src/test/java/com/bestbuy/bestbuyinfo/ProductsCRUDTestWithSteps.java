@@ -67,7 +67,7 @@ public class ProductsCRUDTestWithSteps extends TestBaseForProducts {
     @Title ("Delete product and verify if the product is deleted")
     @Test
     public void test004(){
-        productsSteps.deleteProduct(productId).statusCode(204);
-//        productsSteps.getProductById(productId).statusCode(404);
+        productsSteps.deleteProduct(productId).statusCode(200);
+        productsSteps.getProductById(productId).statusCode(404);
     }
 }
