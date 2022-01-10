@@ -2,10 +2,12 @@ package com.bestbuy.bestbuyinfo;
 
 import com.bestbuy.testbase.TestBaseForStores;
 import io.restassured.response.ValidatableResponse;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import java.util.HashMap;
 
@@ -16,7 +18,7 @@ import static org.hamcrest.Matchers.hasValue;
  * @project BestBuy-Serenity-Homework-WK19
  * @created 09/01/2022
  */
-//@RunWith(SerenityRunner.class)
+@RunWith(SerenityRunner.class)
 public class StoresCRUDTestWithSteps extends TestBaseForStores {
 
     static String name = "Crawley";

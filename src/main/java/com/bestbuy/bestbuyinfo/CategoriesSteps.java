@@ -16,7 +16,7 @@ import java.util.HashMap;
  */
 public class CategoriesSteps {
 
-    @Step("Creating Category with name : {0}, id: {1}")
+    @Step("Creating Category with name: {0}, id: {1}")
     public ValidatableResponse createCategory(String name, String id) {
         CategoriesPojo categoriesPojo = CategoriesPojo.getCategoriesPojo(name,id);
         return SerenityRest.given().log().all()

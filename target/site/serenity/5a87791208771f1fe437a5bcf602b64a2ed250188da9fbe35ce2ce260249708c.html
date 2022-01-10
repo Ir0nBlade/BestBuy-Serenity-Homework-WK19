@@ -58,7 +58,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-01-2022 12:35</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-01-2022 16:18</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -91,9 +91,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-3x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="failing-color">
+                                    <span class="success-color">
                                     Update Category Information And Verify The Updated Information
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -140,13 +140,13 @@
                         <div class="step-description">
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
-                            <span class="top-level-step">Updating Category information with name : Electronicsuw9tg16iyd (Updated), CategoryID: abcat0102000</span>
+                            <span class="top-level-step">Updating Category information with name : Electronics & Computers93042 (Updated), CategoryID: abcat0101001</span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.04s</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -160,7 +160,7 @@
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">PUT http://localhost:3030/categories/abcat0102000</span>
+                            <span class="nested-group-step">PUT http://localhost:3030/categories/abcat0101001</span>
 
                                 <span class="rest-query">
                 <span>
@@ -179,23 +179,23 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                PUT http://localhost:3030/categories/abcat0102000
+                                PUT http://localhost:3030/categories/abcat0101001
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 400</p>
+                                    <p>Status code: 200</p>
                                     <p>Content Type: application/json</p>
                                     <h5>Request Headers</h5>
                                     <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                     <h5>Content Body</h5>
-                                    <pre>{<br>    &quot;name&quot;: &quot;abcat0102000&quot;,<br>    &quot;id&quot;: null<br>}</pre>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Electronics &amp; Computers93042 (Updated)&quot;,<br>    &quot;id&quot;: &quot;abcat0101001&quot;<br>}</pre>
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 134<br>ETag: W/&quot;86-nr8L/714TaEMoIujSQEv/MUZxkk&quot;<br>Vary: Accept-Encoding<br>Date: Sun, 09 Jan 2022 12:35:41 GMT<br>Connection: keep-alive</pre>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 147<br>ETag: W/&quot;93-g28v7cPkMvbEf0KFlDJqAG9f1Pk&quot;<br>Date: Mon, 10 Jan 2022 16:18:25 GMT<br>Connection: keep-alive</pre>
                                 <h5>Response Body</h5>
                                     <pre>
-                                        {<br>    &quot;name&quot;: &quot;BadRequest&quot;,<br>    &quot;message&quot;: &quot;Invalid Parameters&quot;,<br>    &quot;code&quot;: 400,<br>    &quot;className&quot;: &quot;bad-request&quot;,<br>    &quot;data&quot;: {<br>        <br>    },<br>    &quot;errors&quot;: [<br>        &quot;'id' should be string&quot;<br>    ]<br>}
+                                        {<br>    &quot;id&quot;: &quot;abcat0101001&quot;,<br>    &quot;name&quot;: &quot;Electronics &amp; Computers93042 (Updated)&quot;,<br>    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2022-01-10T16:18:25.347Z&quot;<br>}
                                     </pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
@@ -219,55 +219,79 @@
                     </table>
                     </td>
                     <tr>
-                <tr class="test-FAILURE">
-                    <td width="40"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
                     </td>
-                    <td width="%" colspan="1">
-                    <span class="top-level-step">An error occurred outside of step execution.</span>
-                </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">Getting single Category information with name: Electronics & Computers93042 (Updated)</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.11s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
-                    <td width="40">&nbsp</td>
-                    <td width="%" colspan="3">
-                        <span class="error-message"
-                              title="1 expectation failed. Expected status code (200) but was (400). ">
-                        1 expectation failed. Expected status code (200) but was (400). 
-                            </span>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal-overall">
-                        View stack trace
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">GET http://localhost:3030/categories</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-4">
+                        REST Query
                     </button>
-                </div>
+                </span>
                 <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                <div class="modal fade" id="restModal-4" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.AssertionError
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:3030/categories
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <h5>1 expectation failed.<br>Expected status code <200> but was <400>.<br></h5>
-                                io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy
-                                    :636) <br>
-                                io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy
-                                    :122) <br>
-                                io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy
-                                    :130) <br>
-                                io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java
-                                    :117) <br>
-                                com.bestbuy.bestbuyinfo.CategoriesCRUDTestWithSteps.test003(CategoriesCRUDTestWithSteps.java
-                                    :52) <br>
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>ETag: W/&quot;1754-YSnFyzJDYXkKxLh/3pTLT9pPdlE&quot;<br>Content-Encoding: gzip<br>Date: Mon, 10 Jan 2022 16:18:25 GMT<br>Connection: keep-alive<br>Transfer-Encoding: chunked</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;total&quot;: 4303,<br>    &quot;limit&quot;: 10,<br>    &quot;skip&quot;: 0,<br>    &quot;data&quot;: [<br>        {<br>            &quot;id&quot;: &quot;abcat0101001&quot;,<br>            &quot;name&quot;: &quot;Electronics &amp; Computers93042 (Updated)&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2022-01-10T16:18:25.347Z&quot;,<br>            &quot;subCategories&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;pcmcat138100050024&quot;,<br>                    &quot;name&quot;: &quot;TV &amp; Home Theater Services&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;<br>                }<br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0101001&quot;,<br>                    &quot;name&quot;: &quot;Electronics &amp; Computers93042 (Updated)&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2022-01-10T16:18:25.347Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0102000&quot;,<br>            &quot;name&quot;: &quot;Blu-ray &amp; DVD Players&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0102003&quot;,<br>                    &quot;name&quot;: &quot;Blu-ray Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0102005&quot;,<br>                    &quot;name&quot;: &quot;DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0102006&quot;,<br>                    &quot;name&quot;: &quot;DVD Recorders&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0102007&quot;,<br>                    &quot;name&quot;: &quot;DVD/VCR Combos&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;pcmcat219900050000&quot;,<br>                    &quot;name&quot;: &quot;Portable DVD Players &amp; Accessories&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:05.399Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:05.399Z&quot;<br>                }<br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0102000&quot;,<br>                    &quot;name&quot;: &quot;Blu-ray &amp; DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0102003&quot;,<br>            &quot;name&quot;: &quot;Blu-ray Players&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;pcmcat205900050012&quot;,<br>                    &quot;name&quot;: &quot;3D Blu-ray Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:05.399Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:05.399Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;pcmcat748301694302&quot;,<br>                    &quot;name&quot;: &quot;Streaming Blu-ray Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.899Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.899Z&quot;<br>                }<br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0102000&quot;,<br>                    &quot;name&quot;: &quot;Blu-ray &amp; DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0102003&quot;,<br>                    &quot;name&quot;: &quot;Blu-ray Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0102005&quot;,<br>            &quot;name&quot;: &quot;DVD Players&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;pcmcat138100050024&quot;,<br>                    &quot;name&quot;: &quot;TV &amp; Home Theater Services&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;<br>                }<br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0102000&quot;,<br>                    &quot;name&quot;: &quot;Blu-ray &amp; DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0102005&quot;,<br>                    &quot;name&quot;: &quot;DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0102006&quot;,<br>            &quot;name&quot;: &quot;DVD Recorders&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;pcmcat138100050024&quot;,<br>                    &quot;name&quot;: &quot;TV &amp; Home Theater Services&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;<br>                }<br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0102000&quot;,<br>                    &quot;name&quot;: &quot;Blu-ray &amp; DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0102006&quot;,<br>                    &quot;name&quot;: &quot;DVD Recorders&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0102007&quot;,<br>            &quot;name&quot;: &quot;DVD/VCR Combos&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;pcmcat138100050024&quot;,<br>                    &quot;name&quot;: &quot;TV &amp; Home Theater Services&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;<br>                }<br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0102000&quot;,<br>                    &quot;name&quot;: &quot;Blu-ray &amp; DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0102007&quot;,<br>                    &quot;name&quot;: &quot;DVD/VCR Combos&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0102008&quot;,<br>            &quot;name&quot;: &quot;Portable DVD Players&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                <br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0102000&quot;,<br>                    &quot;name&quot;: &quot;Blu-ray &amp; DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0102008&quot;,<br>                    &quot;name&quot;: &quot;Portable DVD Players&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;pcmcat219900050000&quot;,<br>                    &quot;name&quot;: &quot;Portable DVD Players &amp; Accessories&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:05.399Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:05.399Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0104000&quot;,<br>            &quot;name&quot;: &quot;Digital TV Tuners &amp; Converters&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                <br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0104000&quot;,<br>                    &quot;name&quot;: &quot;Digital TV Tuners &amp; Converters&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0107000&quot;,<br>                    &quot;name&quot;: &quot;TV &amp; Home Theater Accessories&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0105000&quot;,<br>            &quot;name&quot;: &quot;TV &amp; Internet Service Providers&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0105004&quot;,<br>                    &quot;name&quot;: &quot;Cable TV Service Providers&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0514000&quot;,<br>                    &quot;name&quot;: &quot;Internet Services&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;pcmcat340700050003&quot;,<br>                    &quot;name&quot;: &quot;Home Connections&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.643Z&quot;<br>                }<br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0105000&quot;,<br>                    &quot;name&quot;: &quot;TV &amp; Internet Service Providers&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                }<br>            ]<br>        },<br>        {<br>            &quot;id&quot;: &quot;abcat0105002&quot;,<br>            &quot;name&quot;: &quot;DIRECTV DVRs&quot;,<br>            &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>            &quot;subCategories&quot;: [<br>                <br>            ],<br>            &quot;categoryPath&quot;: [<br>                {<br>                    &quot;id&quot;: &quot;abcat0105000&quot;,<br>                    &quot;name&quot;: &quot;TV &amp; Internet Service Providers&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                },<br>                {<br>                    &quot;id&quot;: &quot;abcat0105002&quot;,<br>                    &quot;name&quot;: &quot;DIRECTV DVRs&quot;,<br>                    &quot;createdAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;,<br>                    &quot;updatedAt&quot;: &quot;2016-11-17T17:57:04.285Z&quot;<br>                }<br>            ]<br>        }<br>    ]<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
                             </div>
-
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
                                     Close
@@ -276,12 +300,21 @@
                         </div>
                     </div>
                 </div>
-                </td>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.05s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.16s</em></span></td>
                 </tr>
 
             </table>

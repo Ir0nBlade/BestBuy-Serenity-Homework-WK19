@@ -30,7 +30,7 @@ public class CategoriesPojo {
     public static CategoriesPojo getCategoriesPojo(String name, String id){
         CategoriesPojo categoriesPojo = new CategoriesPojo();
         categoriesPojo.setName(name);
-        categoriesPojo.setName(id);
+        categoriesPojo.setId(id);
         return categoriesPojo;
     }
 }

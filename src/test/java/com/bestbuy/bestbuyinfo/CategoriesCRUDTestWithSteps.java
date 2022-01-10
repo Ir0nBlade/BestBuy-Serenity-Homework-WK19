@@ -22,7 +22,7 @@ import static org.hamcrest.Matchers.hasValue;
 @RunWith(SerenityRunner.class)
 public class CategoriesCRUDTestWithSteps extends TestBaseForCategories {
 
-    static String name = "Electronics" + TestUtils.getRandomName();
+    static String name = "Electronics & Computers" + TestUtils.getRandomValue();
     static String id = TestUtils.getRandomName();
     static String categoryId;
 

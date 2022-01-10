@@ -1,11 +1,13 @@
 C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\model\StoresPojo.java
 C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\bestbuyinfo\ProductsSteps.java
 C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\model\ProductsPojo.java
-C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\bestbuyinfo\CategoriesSteps.java
 C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\utils\PropertyReader.java
-C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\bestbuyinfo\StoresSteps.java
-C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\constants\Path.java
 C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\App.java
 C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\model\CategoriesPojo.java
+C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\model\ServicesPojo.java
+C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\bestbuyinfo\ServicesSteps.java
+C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\bestbuyinfo\CategoriesSteps.java
+C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\bestbuyinfo\StoresSteps.java
+C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\constants\Path.java
 C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\utils\TestUtils.java
 C:\Users\itsvi\IdeaProjects\Student-App-RestAssured-Homework-WK18\BestBuy-Serenity-Homework-WK19\src\main\java\com\bestbuy\constants\EndPoints.java
