@@ -52,7 +52,7 @@ public class StoresSteps {
                 .pathParam("storeID", storeID)
                 .body(storesPojo)
                 .when()
-                .put(EndPoints.DELETE_STORE_BY_ID)
+                .put(EndPoints.UPDATE_STORE_BY_ID)
                 .then();
 
     }
